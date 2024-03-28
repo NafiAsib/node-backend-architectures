@@ -12,18 +12,25 @@ In all architecture, **dependencies flow inward**, with inner layers having no k
 
 When a piece of code `A` depends on another piece of code `B`, instead of creating the depependency inside `A`, we inject (fancy word for pass) `B` from outside. This way `A` is not responsible for creating `B` and can be easily tested with a mock `B`.
 
+- [Dependency Injection & Inversion Explained | Node.js w/ TypeScript](https://khalilstemmler.com/articles/tutorials/dependency-injection-inversion-explained/)
+
 ### Domain Driven Design
+
+- [Value Objects - DDD w/ TypeScript](https://khalilstemmler.com/articles/typescript-value-object/)
 
 ### Clean Architecture
 
 ![clean-architecture](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
 
-
 ***Usecases are also referred as interactors sometimes***
+
+- [Clean Node.js Architecture | Enterprise Node.js + TypeScript](https://khalilstemmler.com/articles/enterprise-typescript-nodejs/clean-nodejs-architecture/)
 
 ### Hexagonal Architecture / Ports & Adapters
 
 ### Onion Architecture
+
+### DCI (Data, Context and Interaction)
 
 ### Vertical Slice Architecture
 
@@ -35,7 +42,18 @@ Separating the application around features or “vertical slices”. A good addi
 
 - [Screaming Architecture](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html)
 
+### CQRS (Command Query Responsibility Segregation)
+
 ### Repository Pattern
+
+### Modular Monoliths
+
+- [Introducing Bounded Contexts in a monolithic application (24 min)](https://www.youtube.com/watch?v=DhMrqX_qrJE)
+
+### Conway's Law
+
+- [Conway's Law](https://martinfowler.com/bliki/ConwaysLaw.html)
+- [Conway's Law](https://khalilstemmler.com/wiki/conways-law/) - when we build software, we need to know the different groups/teams/roles it serves, and divide the app up into separate parts, similar to how those groups normally communicate in real life
 
 ## Resources
 
